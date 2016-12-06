@@ -1,0 +1,13 @@
+version: 1.0.{build}
+build: off
+artifacts:
+- path: functions5a7ec9a4
+  name: functions5a7ec9a4
+deploy:
+- provider: WebDeploy
+  server: https://functions5a7ec9a4.scm.azurewebsites.net/msdeploy.axd?site=functions5a7ec9a4
+  website: functions5a7ec9a4
+  username: $functions5a7ec9a4
+  password:
+    secure: zdKZFEiCAZPCYN0RwySNcpa2nEBdwPH1dXZO7jJ8GfdWitHgLXqzZdvbpJJtx8C3Q2iG4GwjW6+BiWys7j8wSw==
+  artifact: functions5a7ec9a4
